@@ -23,3 +23,7 @@ To use bsdiff download it from here: https://www.pokorra.de/coding/bsdiff.html
 
 
 IMPORTANT: If you want use can run the bat file provided instead of step 3-5
+
+You can download them here:
+
+https://github.com/purpleorangegames/RimworldModSkip11LogMessage/releases
