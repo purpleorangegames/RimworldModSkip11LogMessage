@@ -4,7 +4,7 @@ Mods that have been updated to 1.1 will give some log messages, but they are not
 
 ![Mod](https://raw.githubusercontent.com/purpleorangegames/RimworldModSkip11LogMessage/master/screenshotCode.png)
 
-I made two versions, one checks for two tags (<supportedGameVersions> and <packageId>), can add more if necessary.
+I made two versions, one checks for two tags (supportedGameVersions and packageId), can add more if necessary.
 
 The second skips this particular log call, so any tag errors are surpressed, so it is future proof but could suppress genuine errors from other mods.
 
