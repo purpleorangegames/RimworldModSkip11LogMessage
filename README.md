@@ -10,19 +10,24 @@ The second skips this particular log call, so any tag errors are surpressed, so 
 
 
 To use bsdiff download it from here: https://www.pokorra.de/coding/bsdiff.html
+It's this one "Here are the 2 executables: bsdiff_win_exe.zip", you only need bspatch.exe
 
 1. To use go to (Steam\steamapps\common)\RimWorld\RimWorldWin64_Data\Managed
 
-2. Copy bspatch to that folder, open a cmd and navigate there
+2. Copy bspatch to that folder
 
-3. bspatch.exe Assembly-CSharp.dll newfile.dll Assembly-CSharp_log_removed_PATCH.diff
+3. Copy the .diff and .bat file you want from the release folder
+https://github.com/purpleorangegames/RimworldModSkip11LogMessage/releases
 
-4. Then backup Assembly-CSharp.dll as the original file
+4.1. Either run the .bat file
 
-5. Rename newfile.dll to Assembly-CSharp.dll
+4.2. Or open a cmd and navigate there and run this:
+bspatch.exe Assembly-CSharp.dll newfile.dll Assembly-CSharp_log_removed_PATCH.diff
 
+5.2. If you haven't run the bat file then backup Assembly-CSharp.dll as the original file
 
-IMPORTANT: If you want use can run the bat file provided instead of step 3-5
+6.2. If you haven't run the bat file then rename newfile.dll to Assembly-CSharp.dll
+
 
 You can download them here:
 
